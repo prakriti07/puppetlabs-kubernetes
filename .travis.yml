@@ -1,6 +1,9 @@
 ---
 os: linux
 dist: xenial
+arch:
+  - amd64
+  - arm64
 language: ruby
 cache: bundler
 before_install:
